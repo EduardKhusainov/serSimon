@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_Water Stolb
+  m_Shader: {fileID: -6465566751694194690, guid: 628126095e55d0949bb79f63907e1d0e,
+    type: 3}
+  m_ValidKeywords:
+  - _ALPHATEST_ON
+  - _RECEIVE_SHADOWS_OFF
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: TransparentCutout
+  disabledShaderPasses:
+  - SHADOWCASTER
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Bark_02_1K_Normal:
+        m_Texture: {fileID: 2800000, guid: d50d931f775500a468172ad77011522b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha: 0
+    - _AlphaClip: 1
+    - _Blend: 0
+    - _CastShadows: 0
+    - _Cull: 2
+    - _Dissolve_Ammount: 17.7
+    - _Dissolve_Ammount2: 5.62
+    - _DstBlend: 0
+    - _Edge2: 0
+    - _EdgeLow: -1.02
+    - _EdgeLow2: 6.36
+    - _Edge_Width: -14.3
+    - _Float: 1
+    - _Float_1: 15.05
+    - _Gradient_Scale: 8.6
+    - _Line_Length: 0.43
+    - _Noise_Scale: 12.3
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 0
+    - _Speed: 0.78
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _Width: 0
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
+    m_Colors:
+    - _Color: {r: 0, g: 0.8756757, b: 1, a: 0}
+    - _Dissolve_Color: {r: 0.00022309668, g: 0.00045716533, b: 0.0009253026, a: 0}
+    - _Line_Edge_Color: {r: 2.4402115, g: 6.300183, b: 10.470726, a: 0}
+    - _Tilling: {r: 10.04, g: 56.35, b: 0, a: 0}
+    - _Vector2: {r: -5.85, g: -0.46, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &3554642271719696383
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

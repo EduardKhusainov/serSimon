@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_InsideBall
+  m_Shader: {fileID: -6465566751694194690, guid: f3acc6c22aee004478920be8f94e4dff,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Main_Texture:
+        m_Texture: {fileID: 2800000, guid: 30227dfbef0eb0e4b94f88559a91ce2f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_4a042b2fad4743a488a106a225d1b9a4_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 25e92b5513f6d1a43b05786183086f0c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Disslove_Speed: -0.26
+    - _Dissolve: 204.8
+    - _Distortion: 0
+    - _Edge_Width: 10.2
+    - _NoiseEdge: -0.7
+    - _NoiseOut: 13.5
+    - _NoiseScale: 0.62
+    - _Noise_Power: 0
+    - _Normal_Strength: 2.65
+    - _Normal_Tilling: -0.88
+    - _Power_Dissolve: -0.333
+    - _QueueControl: 1
+    - _QueueOffset: -1
+    - _Smoothness: 1
+    - _SurfaceMovementSpeed: 0
+    - _Vector_Displacment: 0
+    m_Colors:
+    - _Color: {r: 0.22877358, g: 0.5830393, b: 0.9150943, a: 0}
+    - _Diss_Offset: {r: -4.97, g: -0.29, b: 0, a: 0}
+    - _Dissolve_Tilling: {r: -1.56, g: 0.1, b: 0, a: 0}
+    - _Edge_Color: {r: 19.861868, g: 49.271336, b: 51.984146, a: 1}
+    - _Specular_Color: {r: 0.0047169924, g: 0.49015802, b: 1, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &6322071919655368149
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

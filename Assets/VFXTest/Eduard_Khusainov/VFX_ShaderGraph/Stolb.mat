@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8043572442078570557
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Stolb
+  m_Shader: {fileID: -6465566751694194690, guid: 967d101ef6c34af4686a58929611a26b,
+    type: 3}
+  m_ValidKeywords:
+  - _ALPHATEST_ON
+  - _RECEIVE_SHADOWS_OFF
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2448
+  stringTagMap:
+    RenderType: TransparentCutout
+  disabledShaderPasses:
+  - SHADOWCASTER
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Bark_02_1K_Normal:
+        m_Texture: {fileID: 2800000, guid: 4a59c79cc0490ea40a93fddd74ed5263, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_50a5cf5700b44e47b89b7e9e8f65b246_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 7a2a866b9c9d7b847928c0b3f40b2bc9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_c4c0f501ef284261b8295140490a741c_Out_0:
+        m_Texture: {fileID: 2800000, guid: d50d931f775500a468172ad77011522b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha: 1.15
+    - _AlphaClip: 1
+    - _Blend: 0
+    - _CastShadows: 0
+    - _Cull: 2
+    - _Dissolve_Ammount: 0.8
+    - _Dissolve_Ammount2: 2.24
+    - _DstBlend: 0
+    - _Edge2: 2.44
+    - _EdgeLow: -0.97
+    - _EdgeLow2: 5.35
+    - _Edge_Width: 0
+    - _Float: 1.16
+    - _Float_1: 6.92
+    - _Gradient_Scale: 7.12
+    - _Line_Length: 0.312
+    - _Noise_Scale: 15.61
+    - _QueueControl: 0
+    - _QueueOffset: -2
+    - _ReceiveShadows: 0
+    - _Speed: 0.39
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _Width: 38.72
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Dissolve_Color: {r: 0.34509805, g: 1.427451, b: 3.4352942, a: 1}
+    - _Line_Edge_Color: {r: 6.5663877, g: 15.617354, b: 33.89676, a: 0}
+    - _Tilling: {r: 3.7, g: -2.69, b: 0, a: 0}
+    - _Vector2: {r: 0, g: -0.85, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Fireball
+  m_Shader: {fileID: -6465566751694194690, guid: 3b34b8be0d2fb6e4da55bf8df54cc807,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2455
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Base_Scale: 5.41
+    - _Base_Speed: 0.42
+    - _Base_Strength: 0.09
+    - _Emission_Strength: 0.9
+    - _Fade_Depth: 50
+    - _Flash_Noise_Color: 114.6
+    - _Flash_Noise_Scale: -21.4
+    - _LightAmmount: 5.6
+    - _Noise_Edge_1: 0.08
+    - _Noise_Edge_2: 0.6
+    - _Noise_Power: 0.7
+    - _Noise_Scale: 3.6
+    - _Noise_Speed: 0.35
+    - _QueueControl: 0
+    - _QueueOffset: 5
+    - _Sphere_Hardness: 3.1
+    - _Sphere_Mask_Radius: 0.33
+    - _Sphere_mask_Hardness: 0.42
+    - _Sphere_radius: 3.87
+    - _Wave_Power: 0.14
+    - _speed: -3.3
+    m_Colors:
+    - _Color_Peak: {r: 9.734288, g: 5.8609586, b: 0.30578914, a: 0}
+    - _Color_Valley: {r: 2.1176472, g: 0.7372549, b: 0.015686275, a: 0}
+    - _Flash_Color: {r: 14.754423, g: 5.561877, b: 3.9396627, a: 0}
+    - _Flash_RNoise_Remap: {r: -1.34, g: 1, b: -1.23, a: 0.77}
+    - _Noise_remap: {r: -0.37, g: 0.95, b: -2.37, a: 1}
+    - _PosItion: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _PosLight: {r: 0, g: 0, b: 0, a: 0}
+    - _Position: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Vector4: {r: -50.9, g: 13.06, b: 4.34, a: -329.1}
+    - _pos: {r: 0.96, g: 5.64, b: -0.5, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &3476126991073102960
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

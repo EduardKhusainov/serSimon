@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-669297817046709587
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Smooth1 1
+  m_Shader: {fileID: -6465566751694194690, guid: eb341c817c85dcb41ba158248f9653fa,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2997
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Bark_02_1K_Normal:
+        m_Texture: {fileID: 2800000, guid: 30227dfbef0eb0e4b94f88559a91ce2f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Main_Tex:
+        m_Texture: {fileID: 2800000, guid: 30227dfbef0eb0e4b94f88559a91ce2f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_0fc2f13809dc42ee8729cd5b3f3cda7b_Out_0:
+        m_Texture: {fileID: 2800000, guid: d50d931f775500a468172ad77011522b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Clip: 3.84
+    - _Disp_Speed: 0
+    - _Dissolve_Height: 0.21
+    - _Dosplacment: 0
+    - _Edge_1: -4.65
+    - _Edge_2: 4.55
+    - _Emission_Edge_1: 0.24
+    - _Emission_Edge_2: -0.09
+    - _Float: 2.29
+    - _Float_1: 0.16
+    - _Float_2: 6.08
+    - _Noise_Scale: 28.14
+    - _QueueControl: 0
+    - _QueueOffset: -3
+    - _Speed: 0.57
+    - _WobbleAmount: 0
+    - _WobbleIntens: 0
+    - _WobbleSpeed: 0
+    - _WobleFrequenc: 0
+    - _smootj: 0.45
+    m_Colors:
+    - _Base_Color: {r: 0.3726415, g: 0.77981764, b: 1, a: 0}
+    - _Color: {r: 11.970239, g: 18.426098, b: 25.688938, a: 0}
+    - _Tilling: {r: 6.18, g: 2.33, b: 0, a: 0}
+    - _Vector2: {r: 0, g: -1.08, b: 0, a: 0}
+  m_BuildTextureStacks: []
